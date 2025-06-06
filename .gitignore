@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+
+# Production
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Optional: skip lock files except pnpm
+package-lock.json
+yarn.lock
+
+# Optional: Uncomment if you want to exclude .vercel (for Vercel CLI deployments)
+# .vercel
+
+# Test coverage
+coverage/
